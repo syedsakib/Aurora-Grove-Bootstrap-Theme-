@@ -1,0 +1,128 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+  font-weight: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.navbar .navbar-brand h3 {
+  font-weight: 100;
+}
+
+.navbar .nav-item {
+  font-size: 1.5rem;
+}
+
+.navbar .nav-link:hover {
+  -webkit-transition: border 0.4s;
+  transition: border 0.4s;
+  border-bottom: 1px solid white;
+}
+
+#show-case {
+  background: url("../images/main.jpeg") bottom center/cover no-repeat;
+  min-height: 750px;
+  position: relative;
+}
+
+#show-case #header {
+  z-index: 2;
+}
+
+#show-case #overlay {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#show-case h1 {
+  font-family: "Questrial", sans-serif;
+  line-height: 1;
+}
+
+#show-case #book {
+  background-color: #36b3a8;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+}
+
+#sec3 h2 {
+  color: #36b3a8;
+}
+
+#sec3 a {
+  background-color: white;
+  color: black;
+  border: 2px solid #36b3a8;
+  /* Green */
+}
+
+#sec3 a:hover {
+  background-color: #36b3a8;
+  /* Green */
+  color: white;
+}
+
+#quotes i {
+  opacity: 0.4;
+  color: #36b3a8;
+}
+
+#sec5 a {
+  color: #36b3a8;
+}
+
+#sec6 h5 {
+  color: #36b3a8;
+}
+
+#sec7 i {
+  color: #36b3a8;
+}
+
+#sec8 button {
+  background-color: #36b3a8;
+  color: whitesmoke;
+}
+
+#footer {
+  background-color: #1f1f1f;
+  font-weight: 100;
+}
+
+.btn1 {
+  background-color: #36b3a8;
+  color: whitesmoke;
+}
+
+.btn2 {
+  background-color: #1f1f1f;
+  color: whitesmoke;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    background: #1f1f1f;
+  }
+  .navbar .nav-link:hover {
+    border-bottom: none;
+  }
+  #show-case {
+    min-height: 500px;
+  }
+  #show-case h1 {
+    font-size: 4rem;
+  }
+}
+/*# sourceMappingURL=app.css.map */
